@@ -1,0 +1,16 @@
+﻿@model List<PayPal.Api.Transaction>
+@{
+    ViewBag.Title = "SuccessView";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Thank you for your purchase!!!. We have received your payment for:</h3>
+@foreach(var item in Model)
+{
+    <div>
+        <h4>Product: @item.description</h4>
+        <div>Amount: @item.amount.total</div>
+        <div>Invoice: @item.invoice_number</div>
+        <hr />
+    </div>
+}

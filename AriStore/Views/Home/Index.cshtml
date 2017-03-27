@@ -1,0 +1,50 @@
+﻿@{
+    ViewBag.Title = "Flower Xochimilco";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+               <h2>
+                   <img src="~/Images/trajinera.png" alt="" height="60" width="60" />@ViewBag.Message
+               </h2>
+            </hgroup>         
+        </div>
+    </section>
+}
+
+<table style="width:100%">
+    <tr>
+        <td>
+            <div>
+                 <h5>Tulips</h5>        
+                 <img  src="~/Images/tulips.png" alt="Image" height="250" width="250"  />
+                 <p>Free shipping</p>    
+                 <p>No taxes</p>
+                 <p>Price: $1.00</p>
+                 <a>@Html.ActionLink("Buy", "CreateOrder", "Payment", new {id= 1, name="Tulips", price=1.00, shipping=0, tax=0 }, new {Attribute1="value"})</a> 
+            </div>
+        </td>
+        <td>
+            <div>
+                <h5>Roses and lilies</h5>
+                <img src="~/Images/roses.png" alt="Image" height="250" width="250"/> 
+                <p>Free shipping</p>    
+                <p>Taxes: $1.00</p>
+                <p>Price: $1.00</p> 
+                <a>@Html.ActionLink("Buy", "CreateOrder", "Payment", new {id= 2, name="Roses and lilies", price=1.00, shipping=0, tax=1.00 }, new {Attribute1="value"})</a> 
+            </div>
+        </td>
+         <td>
+            <div>
+                 <h5>Alcatraz</h5>
+                 <img src="~/Images/alcatraz.png" alt="Image" height="250" width="250"/> 
+                 <p>Shipping: $1.00</p>    
+                 <p>Taxes: $1.00</p>
+                 <p>Price: $1.00</p>
+                 <a>@Html.ActionLink("Buy", "CreateOrder", "Payment", new {id= 3, name="Alcatraz", price=1.00, shipping=1.00, tax=1.00 }, new {Attribute1="value"})</a> 
+            </div>
+        </td>
+    </tr>
+</table>
+
