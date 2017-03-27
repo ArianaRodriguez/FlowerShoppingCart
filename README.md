@@ -7,9 +7,13 @@ Flower Xochimilico is a simulation of a shopping cart:
     * Unit Test
 
 ## Prerequisites
-* Paypal account API credentials to be used in the web application.
-* Buyer account. (You can create these accounts by registering on Paypal Developer website here https://developer.paypal.com for Free.)
-* Paypal SDK for .NET NuGet Package Manager.
+* Paypal account API credentials to be used in the web application. (Create the app on https://developer.paypal.com)
+* Buyer account. (You can create these accounts by registering on Paypal Developer website for Free)
+* .NET Framework 4.5
+* Visual Studio 2012 for Web (ASP.NET MVC)
+* Paypal SDK for .NET NuGet Package Manager version 1.8.0.0
+* Newtonsoft.Json 7.0.0.0 (installed automatically with Paypal SDK)
+* Microsoft Azure to host the app using github repository. (You can create a temporal free account https://azure.microsoft.com)
 
 ## Installation
 
@@ -48,7 +52,7 @@ git clone git@github.com:ArianaRodriguez/FlowerShoppingCart.git
 
 * Run the project
 
-* Run Tests
+* Run Unit Tests
 
 	Test -> Run -> All Tests
 	
@@ -60,8 +64,8 @@ Click on "Buy" link to simulate PayPal Paypment
 
 ## Links of interes
 
-* [`http://developer.paypal.com`]
-* [`https://developer.paypal.com/docs/integration/direct/express-checkout/integration-jsv4/advanced-payments-api/`]
+* [`http://developer.paypal.com`](http://developer.paypal.com)
+* [`https://developer.paypal.com/docs/integration/direct/express-checkout/integration-jsv4/advanced-payments-api/`](https://developer.paypal.com/docs/integration/direct/express-checkout/integration-jsv4/advanced-payments-api/)
 
 
 ## Author
