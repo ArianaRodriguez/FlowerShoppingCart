@@ -74,7 +74,9 @@ h2 {
 }
 
 h3 {
-    font-size: 1.2em;
+    font-size: 1.4em;
+    margin-bottom: 5px;
+    text-align: left;
 }
 
 h4 {
@@ -339,31 +341,6 @@ textarea {
         margin-right: 4px;
     }
 
-/* info and errors */
-.message-info {
-    border: 1px solid;
-    clear: both;
-    padding: 10px 20px;
-}
-
-.message-error {
-    clear: both;
-    color: #e80c4d;
-    font-size: 1.1em;
-    font-weight: bold;
-    margin: 20px 0 10px 0;
-}
-
-.message-success {
-    color: #7ac0da;
-    font-size: 1.3em;
-    font-weight: bold;
-    margin: 20px 0 10px 0;
-}
-
-.error {
-    color: #e80c4d;
-}
 
 /* styles for validation helpers */
 .field-validation-error {
@@ -507,30 +484,6 @@ tr.pager td {
         float: none;
         width: 100%;
     }
-
-    /* ordered list */
-    ul.round {
-        list-style-type: none;
-        padding-left: 0;
-    }
-
-        ul.round li {
-            padding-left: 10px;
-            margin: 25px 0;
-        }
-
-            ul.round li.zero,
-            ul.round li.one,
-            ul.round li.two,
-            ul.round li.three,
-            ul.round li.four,
-            ul.round li.five,
-            ul.round li.six,
-            ul.round li.seven,
-            ul.round li.eight,
-            ul.round li.nine {
-                background: none;
-            }
 
      /* features */
      section.feature {

@@ -1,10 +1,17 @@
 ﻿@{
     ViewBag.Title = "Contact";
 }
-
-<hgroup class="title">
-    <h1>@ViewBag.Title</h1>
-</hgroup>
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+               <h2>
+                   <img src="~/Images/trajinera.png" alt="" height="60" width="60" />@ViewBag.Title
+               </h2>
+            </hgroup>         
+        </div>
+    </section>
+}
 
 <section class="contact">
     <header>

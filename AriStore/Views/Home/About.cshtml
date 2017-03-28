@@ -1,14 +1,24 @@
 ﻿@{
     ViewBag.Title = "About";
 }
-
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+               <h2>
+                   <img src="~/Images/trajinera.png" alt="" height="60" width="60" />@ViewBag.Title
+               </h2>
+            </hgroup>         
+        </div>
+    </section>
+}
 <hgroup class="title">
      <h2>@ViewBag.Message</h2>
 </hgroup>
 
 <article>
       <p>
-        Sending flowers is easy and safe with FlowerXoco. Through our network of flower shops you can send flowers for Birthdays, Anniversaries or any other occasion. We guarantee that every flower delivery will be of the highest quality and freshness!
+        Sending flowers is easy and safe with Xochimilco. Through our network of flower shops you can send flowers for Birthdays, Anniversaries or any other occasion. We guarantee that every flower delivery will be of the highest quality and freshness!
       </p>
 </article>
 
